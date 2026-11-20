@@ -14,12 +14,38 @@ An online bookstore web application featuring a modern catalog, author collectio
 
 ---
 
-## 🔐 Credentials & Default Accounts
+## 🔐 Login Credentials & Default Accounts (ID & Password)
 
-| Role | Username | Password | Access Portal |
+> [!IMPORTANT]
+> **Use the following credentials to login to the store and admin panel:**
+
+### 👑 Admin / Store Manager Portal
+* **Login URL:** `/admin/login.php` (Direct Endpoint) or via Admin button on homepage
+* **Username:** `suyash`
+* **Password:** `gulati`
+* **Alternate Admin Account:** `admin` / `password: admin123`
+* **Capabilities:** View live order counts, product catalog, user list, and database status.
+
+### 👤 Demo Customer Accounts
+* **Login URL:** `/login.php` or "Sign in" popup modal on homepage
+* **Fast Test Account:** `Username: a` | `Password: a`
+* **Pre-seeded Accounts (from bookstore.sql):**
+  * `shivangi` / `gupta`
+  * `nimisha` / `sehgal`
+  * `avaleen` / `kaur`
+  * `ankita` / `negi`
+
+### 🔑 Summary Credentials Table
+
+| Role / Access | Username | Password | Portal Endpoint |
 | :--- | :--- | :--- | :--- |
-| **Admin / Default User** | `suyash` | `gulati` | `/admin/login.php` or `/login.php` |
-| **Test Customer** | `a` | `a` | `/login.php` or modal login |
+| **👑 Master Admin** | `suyash` | `gulati` | `https://<your-app>.onrender.com/admin/login.php` |
+| **👑 Backup Admin** | `admin` | `admin123` | `https://<your-app>.onrender.com/login.php` |
+| **🛒 Quick Demo Customer** | `a` | `a` | `https://<your-app>.onrender.com/login.php` |
+| **👤 Customer 1** | `shivangi` | `gupta` | `https://<your-app>.onrender.com/index.php` |
+| **👤 Customer 2** | `nimisha` | `sehgal` | `https://<your-app>.onrender.com/index.php` |
+| **👤 Customer 3** | `avaleen` | `kaur` | `https://<your-app>.onrender.com/index.php` |
+| **👤 Customer 4** | `ankita` | `negi` | `https://<your-app>.onrender.com/index.php` |
 
 ---
 
